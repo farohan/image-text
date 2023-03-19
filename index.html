@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- JQuery Script -->
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous">
+    </script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Get Text from Image - Image to Text Transfer</title>
+</head>
+<body>
+    <h1 id="title">Image to Text Transfer App</h1>
+
+    <form id="form">
+        <input id="input" type="file" accept="image/*">
+        <button type="submit" onclick="postData()">Submit Image</button>
+    </form>
+
+    <canvas id="canvas"></canvas>
+    
+    <script src="app.js"></script>
+</body>
+</html>
