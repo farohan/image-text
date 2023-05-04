@@ -20,10 +20,16 @@
 
     <form id="form">
         <input id="input" type="file" accept="image/*">
-        <button type="submit" onclick="postData()">Submit Image</button>
+        <button type="submit" onclick="postData()">Analyze for Text</button>
     </form>
 
-    <canvas id="canvas"></canvas>
+    <div id="image-box"></div>
+
+    <section id="result-box">
+        <p id="results"></p>
+    </section>
+
+    <button id="copy-btn" onclick="copyText()">Copy Text</button>
     
     <script src="app.js"></script>
 </body>
